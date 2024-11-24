@@ -1,0 +1,148 @@
+#Loyalty {
+    font-family: "Lato", sans-serif;
+}
+#Loyalty header {
+    background: url('../../Images/LoyaltyBg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    justify-self: center;
+    color: white;
+}
+#Loyalty header #hd-inner {
+    margin: 12% 25%;
+    display: grid;
+    text-align: center;
+    color: white;
+}
+#Loyalty header #hd-inner h1 {
+    font-size: 40px;
+    font-weight: 520;
+    word-spacing: 2px;
+}
+#Loyalty header #hd-inner p {
+    font-size: 25px;
+}
+#Loyalty #hd-inner button {
+    width: 20%;
+    padding: 2%;
+}
+#Loyalty section {
+    padding: 3% 15%;
+}
+#Loyalty #sectionn1 div {
+    border: 2px solid #787777;
+    margin-bottom: 5%;
+}
+#wrapper {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    background-color: #D09742;
+    padding: 1%;
+}
+#lydt {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0%;
+}
+#lydt span {
+    width: 47%;
+    text-align: start;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: Poppins;
+    border: 2px solid #3d3d3d;
+    border-radius: 10px;
+    padding: 2%;
+}
+#lstwrap {
+    display: flex;
+    border: none;
+    justify-content: space-between;
+}
+#lstwrap div {
+    display: grid;
+    padding: 5%;
+    border-radius: 10px;
+    color: white;
+    width: 47.5%;
+}
+#lstwrap span {
+    text-align: start;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    #Loyalty header #hd-inner {
+        margin: 12% 5%;
+    }
+    #Loyalty header #hd-inner button {
+      width: max-content;
+    }
+    #wrapper {
+        font-size: 27px;
+    }
+    #lydt span { 
+        font-size: 20px;
+    }
+    #lstwrap span:first-child {
+        line-height: 100%;
+        font-size: 20px;
+    }
+    #lstwrap span {
+        font-size: 18px;
+        line-height: 100%;
+    }
+  }
+
+@media screen and (max-width: 520px) {
+    #Loyalty header #hd-inner {
+        margin: 12% 5%;
+    }
+    #Loyalty header #hd-inner h1 {
+        font-size: 27px;
+    }
+    #Loyalty header #hd-inner p {
+        font-size: 20px;
+    }
+    #Loyalty #hd-inner button {
+        width: max-content;
+    }
+    #Loyalty section {
+        padding: 4%;
+    }
+    #sectionn1 div {
+        font-size: 25px;
+    }
+    #wrapper {
+        padding: 2% 0px;
+    }
+    #lydt {
+        display: grid;
+    }
+    #lydt span {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 4%;
+    }    
+    #lstwrap {
+        display: grid;
+    }
+    #lstwrap div {
+        width: 100%;
+    }
+    #lstwrap div span:first-child {
+        font-size: 25px;
+    }
+    #lstwrap div span {
+        font-size: 20px;
+    }
+}

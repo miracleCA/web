@@ -1,0 +1,133 @@
+#ft {
+    display: grid;
+    padding: 4% 12%;
+    padding-left: 12%;
+    padding-right: 12%;
+    color: white;
+    background-color: #000000;
+}
+footer div {
+    display: flex;
+    font-family: "Rubik", sans-serif;
+}
+footer .nn {
+    display: none;
+}
+#ftcont {
+    width: 50%;
+    text-align: left;
+}
+#ftcont div {
+    padding: 2% 0px;
+}
+#ftnav {
+    width: 25%;
+}
+#ftnav h2 {
+    height: 2px;
+}
+#ftnav span {
+    height: 2px;
+}
+#logo {
+    width: 80px;
+    text-align: start;
+    justify-content: start;
+}
+footer div span div {
+    font-size: 20px;
+}
+#lstft {
+    justify-content: space-between;
+    padding-top: 5%;
+}
+#ftnav span {
+    padding: 0px;
+    justify-content: inherit;
+}
+#ftnav span a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#lstft span i {
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+#mobftcv {
+    display: flex;
+    width: 65%;
+}
+#mobftcv span {
+    width: 50%;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    #ftcont div span {
+        font-size: 15px;
+    }
+    #mobftcv h2 {
+        font-size: 20px;
+    }
+    #mobftcv {
+        top: 40%;
+        position: relative;
+    }
+    #lstft {
+        padding-top: 15%;
+    }
+    #lstft span {
+        align-content: center;
+    }
+    #lstft span a i {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    footer div {
+        display: grid;
+    }
+    footer .nm {
+        display: none;
+    }
+    footer .nn {
+        display: grid;
+    }
+    #ftnav {
+        width: 50%;
+    }
+    footer img {
+        place-self: center;
+        justify-self: center;
+        display: flex;
+        padding: 4% 0px;
+        order: 1;
+    }
+    #ftnav span {
+        height: unset;
+    }
+    #ftcont {
+        width: 100%;
+        order: 3;
+    }
+    #mobftcv {
+        display: flex;
+        width: 100%;
+        padding: 5% 0px;
+        order: 2;
+    }
+    #mobftcv #ftnav h2 {
+        padding-bottom: 20%;
+    }
+    #mobftcv #ftnav span {
+        padding: 2% 0px;
+    }
+    #lstft, #lstft span {
+        justify-content: center;
+        place-self: center;
+        text-align: center;
+    }
+}

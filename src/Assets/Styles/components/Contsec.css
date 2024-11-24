@@ -1,0 +1,13 @@
+#section7 button {
+    width: 15%;
+}
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    #section7 button, #Home #section7 button, .App #section7 button {
+        width: max-content;
+    }
+}
+@media screen and (max-width: 520px) {
+    #Home #section7 button, .App #section7 button {
+        width: max-content;
+    }
+}

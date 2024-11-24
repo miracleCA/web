@@ -1,0 +1,94 @@
+#About {
+    font-family: "Lato", sans-serif;
+}
+#About header #hd-inner {
+    margin: 2% 5%;
+}
+#abtus {
+    display: flex;
+    justify-content: space-between;
+} 
+#abtus span {
+    width: 50%;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Poppins;
+    text-align: start;
+    justify-content: center;
+    display: grid;
+}
+#abtus img {
+    width: 100%;
+    border-radius: 10px;
+}
+#About #section4 {
+    font-family: Poppins;
+}
+#About #section4 h1 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+#About #section4 h2 {
+    color: #FFFF00;
+    font-size: 25px;
+}
+#section2 h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+#section2 p {
+    padding: 0px 15%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    #abtus span {
+        font-size: 12px;
+        padding: 0px 1%;
+    }
+    #About #section4 h1 {
+        font-size: 30px;
+    }
+    #About #section4 h2 {
+        font-size: 20px;
+    }
+    #section4 div {
+        justify-content: space-between;
+    }
+    #section4 div span {
+        width: 24%;
+        display: unset;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #abtus {
+        display: grid;
+    }
+    #abtus span {
+        width: 100%;
+    }
+    #About #cc1 {
+        order: 2;
+        font-size: 18px;
+        padding-top: 2%;
+    }
+    #cc2 {
+        order: 1;
+    }
+    #section2 p { 
+        padding: 0px 4%;
+    }
+    #About #section4 div {
+        display: grid;
+    }
+    #section4 div span {
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }
+}

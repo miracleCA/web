@@ -1,0 +1,44 @@
+.App #section8 button {
+    width: max-content;
+}
+#Loyalty #section8 {
+    padding: 0px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    .App #section8 div {
+        width: 50%;
+    }
+    .App #section8 div img {
+        width: -webkit-fill-available;
+    }
+    .App #section8 #bktxt {
+        margin: 2%;
+    }
+    .App #section8 #bktxt h2 {
+        font-size: 27px;
+    }
+    .App #section8 button {
+        width: max-content;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .App #section8 {
+        display: grid;
+    }
+    .App #section8 img {
+        width: 80%;
+    }
+    .App #section8 h1 {
+        font-size: 35px;
+        margin-right: 0px;
+        padding-right: 0px;
+        justify-content: center;
+        text-align: center;
+        justify-self: center;
+    }
+    .App #section8 button {
+        width: max-content;
+    }
+}

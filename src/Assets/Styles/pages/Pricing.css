@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Satoshi;
+    src: url(../../Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+}
+
+#Pricing {
+    font-family: "Lato", sans-serif;
+}
+#Pricing header {
+    background: url('../../Images/PriciBg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    justify-self: center;
+    color: white;
+}
+#Pricing header #hd-inner {
+    margin: 12% 20%;
+}
+#Pricing header #hd-inner button {
+  width: 20%;
+  padding: 2%;
+}
+#Pricing #section1 span {
+    width: 70%;
+    border: 1px solid #54525230;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: Satoshi;
+}
+#Pricing #section1 span a {
+    color: #6F728C;
+    text-align: center;
+    padding: 15px 3%;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+#Pricing #section1 span a:hover {
+    color: #FF6A00;
+}
+#Pricing #section1 span a:active {
+    color: #FF6A00;
+}
+.App #Pricing #serv2, .App #Pricing #serv22 {
+  display: none;
+}
+.App #Pricing #serv1 {
+  display: flex;
+}
+#Pricing #section1 h1 {
+    color: #000080;
+    font-size: 40px;
+    font-weight: 700;
+}
+#item {
+    display: flex;
+    margin: 2% 0px;
+    font-family: Poppins;
+}
+#Pricing #priclist span {
+    width: 50%;
+    border: none;
+    text-align: start;
+    padding: 0px 5%;
+}
+.eyoHU {
+    width: 100%;
+}
+#item img {
+    padding: 0px 10%;
+    width: 50%;
+}
+  #glll .dMydrg {
+    background-color: transparent;
+  }
+  #glll .dMydrg:hover:enabled, #glll .dMydrg:focus:enabled {
+    color: #fff;
+    background-color: #bc983c;
+    box-shadow: 0 0 2px 0 #333;
+  }
+  #glll .fuFKqj {
+    color: #fff;
+    background-color: #bc983c;
+    box-shadow: 0 0 2px 0 #333;
+  }
+  #glll .fuFKqj:hover:enabled, #glll .fuFKqj:active:enabled {
+    border: #bc983c;
+    outline-color: #bc983c;
+    box-shadow: #bc983c;
+  }
+  
+  @media (max-width: 768px) {
+    #glll .kDqOaG, #glll .dMydrg {
+      width: 20px;
+      min-width: 20px;
+      height: 20px;
+      line-height: unset;
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (min-width: 750px) and (max-width: 1200px) {
+    #Pricing header #hd-inner button {
+      width: max-content;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    #Pricing header #hd-inner {
+      margin: 25% 5%;
+    }
+    #Pricing header #hd-inner h1 {
+        font-size: 27px;
+        font-weight: 550;
+    }
+    #Pricing header #hd-inner p {
+        font-size: 20px;
+        padding-top: 5%;
+    }
+    #Pricing header #hd-inner button {
+        width: max-content;
+        padding: 2% 5%;
+    }
+    #Pricing section {
+      padding: 4%;
+    }
+    #Pricing section h1 {
+        font-size: 30px;
+    }
+    #Pricing #section1 span {
+      width: 100%;
+    }
+    .App #Pricing #serv1, .App #Pricing #serv21 {
+      display: none;
+    }
+    .App #Pricing #serv2 {
+      display: block;
+    }
+    .App #Pricing #serv22 {
+      display: grid;
+    }
+    .App #Pricing #item {
+      display: grid;
+    }
+    .App #Pricing #item img {
+      width: 100%;
+      height: auto;
+    }
+    .App #Pricing #item #a {
+      order: 2;
+    }
+    .App #Pricing #item #b {
+      order: 1;
+    }
+  }

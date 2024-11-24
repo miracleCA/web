@@ -1,0 +1,93 @@
+#Warranty, #Warranty h1 {
+    font-family: "Lato", sans-serif;
+}
+#Warranty header {
+    background: url('../../Images/WarrantyBg.png');
+}
+#Warranty header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    justify-self: center;
+    color: white;
+}
+#Warranty header #hd-inner {
+    margin: 12% 25%;
+    display: grid;
+    text-align: center;
+    color: white;
+}
+#Warranty header #hd-inner h1 {
+    font-size: 40px;
+    font-weight: 520;
+    word-spacing: 2px;
+}
+#Warranty header #hd-inner p {
+    font-size: 25px;
+
+}
+#Warranty #section1 {
+    display: grid;
+    padding: 2% 10%;
+    place-items: center;
+}
+#Warranty #section1 span {
+    font-family: Poppins;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.5% 20%;
+    font-size: 20px;
+}
+#Warranty #section1 #mm {
+    display: flex;
+    font-family: Poppins;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 2% 0px;
+}
+#wrd {
+    display: grid;
+    text-align: start;
+    padding: 2% 2.5%;
+    border-radius: 10px;
+    width: 50%;
+    font-weight: 500;
+}
+#wrd h2 {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 520px) {
+    #Warranty header #hd-inner {
+        margin: 25% 5%;
+    }
+    #Warranty header #hd-inner h1 {
+        font-size: 27px;
+        font-weight: 550;
+    }
+    #Warranty header #hd-inner p {
+        font-size: 20px;
+        padding-top: 5%;
+    }
+    #Warranty header #hd-inner button {
+        width: max-content;
+        padding: 2% 5%;
+    }
+    section h1 {
+        font-size: 30px;
+        padding-right: 0px;
+    }
+    #Warranty #section1 span {
+        padding: 0.5% 0px;
+    }
+    #Warranty #section1 #mm {
+        display: grid;
+    }
+    #wrd {
+        width: 100%;
+        height: 320px;
+    }
+}

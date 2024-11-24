@@ -1,0 +1,133 @@
+#Booking {
+    font-family: "Lato", sans-serif;
+    justify-content: space-between;
+}
+#Booking header {
+    background-color: #1F1F1F;
+}
+form {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    bottom: 8%;
+    padding: 2%;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    border: 2px solid #181C391A;
+}
+form label {
+    margin-top: 3%;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+}
+form input {
+    border: 2px solid #181C391A;
+    padding: 2%;
+    height: 45px;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+#Booking span h2 {
+    color: #000080;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 1%;
+}
+
+#formrw {
+    display: flex;
+    justify-content: space-between;
+}
+#formrw span {
+    width: 48%;
+}
+#bkchecksp {
+    display: flex;
+    justify-content: space-between;
+}
+#bkcheck, #bkcheck2 {
+    width: 30px;
+    accent-color: #FF6A00;
+}
+#bkchecksp label {
+    font-size: 20px;
+    color: #101011;
+    margin: auto;
+    margin-left: 0px;
+}
+
+#Booking footer {
+    vertical-align: bottom;
+}
+
+#Booking #m1 {
+    width: 48%;
+}
+#Booking #m2 {
+    width: 48%;
+}
+#Booking #m2 label {
+    font-size: unset;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    #Booking header #hd-inner h1 {
+        padding-bottom: 40%;
+    }
+    form {
+        width: 70%;
+    }
+    #bkchecksp label {
+        font-size: 17px;
+    }
+    form label {
+        font-size: 17px;
+    }
+    #bkcheck, #bkcheck2 {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #Booking header #hd-inner h1 {
+        padding-bottom: 40%;
+    }
+    #Booking span form {
+        width: 85%;
+    }
+    #bkchecksp span label {
+        font-size: 15px;
+    }
+    #bkchecksp {
+        display: ruby;
+    }
+    #bkchecksp span {
+        padding-right: 5%;
+    }
+    #formrw span {
+        width: 46%;
+    }
+    #bkcheck, #bkcheck2 {
+        width: 15px;
+    }
+    #Booking #m1 {
+        width: 40%;
+    }
+    #Booking #m2 {
+        width: 60%;
+        padding-right: 0px;
+    }
+    #Booking #m2 label {
+        font-size: 13px;
+    }
+    #Booking #mv {
+        text-align: center;
+    }
+    #Booking #mlast #formrw {
+        display: grid;
+        justify-content: unset;
+    }
+    #Booking #mlast #formrw span {
+        width: 100%;
+    }
+}

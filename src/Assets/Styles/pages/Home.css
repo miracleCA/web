@@ -1,0 +1,550 @@
+#Home {
+    font-family: "Lato", sans-serif;
+}
+#Home header {
+    background: url('../../Images/Header\ BG.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    justify-self: center;
+    color: white;
+}
+header {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    justify-self: center;
+    color: white;
+}
+header #hd-inner {
+    margin: 12% 25%;
+    display: grid;
+    text-align: center;
+    color: white;
+}
+header #hd-inner h1 {
+    font-size: 40px;
+    font-weight: 520;
+    word-spacing: 2px;
+}
+header #hd-inner p {
+    font-size: 25px;
+}
+header #hd-inner button {
+    width: 15%;
+    padding: 2%;
+}
+section {
+    padding: 4% 12%;
+}
+article h1 {
+    text-align: left;
+    padding-left: 2%;
+    font-weight: 700;
+    font-size: 40px;
+}
+#listicle {
+    display: flex;
+}
+#mbimg {
+    display: none;
+}
+#listicle ol{
+    display: flex;
+}
+#listicle ol li {
+    padding: 2% 2%;
+}
+#listicle img {
+    position: relative;
+    width: 30%;
+}
+
+#Home .slider-container {
+    align-items: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+    display: initial;
+    height: 100vh;
+    justify-content: center;
+}
+
+.slider-images {
+    align-items: center;
+    display: flex;
+    gap: 1%;
+    width: 100%;
+}
+#bk1 {
+    background-image: url(../../Images/Service1.png);
+}
+#bk2 {
+    background-image: url(../../Images/Service2.png);
+}
+#bk3 {
+    background-image: url(../../Images/Service3.png);
+}
+#bk4 {
+    background-image: url(../../Images/Service4.png);
+}
+#bk5 {
+    background-image: url(../../Images/Service5.png);
+}
+.slider-img {
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: .7s ease;
+    width: 13%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider-images .active #spst {
+    display: none;
+}
+#spst {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+#spst h2 {
+    padding: 0px 10px;
+}
+.slider-img span {
+    display: none;
+}
+#Home .slider-container p {
+    padding: 0px;
+}
+.slider-images .active span {
+    display: block;
+    color: white;
+    display: grid;
+    padding: 20px;
+    top: 27%;
+    position: relative;
+    text-align: left;
+    background-color: #00000059;
+    place-self: left;
+    justify-content: left;
+}
+#Home .slider-images .active {
+    width: 42% !important;
+    height: 500px;
+    background-color: transparent;
+}
+.slider-images .active img {
+    height: 500px !important;
+    width: -webkit-fill-available;
+}
+.slider-images img {
+    height: 500px;
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+#section3 {
+    background-image: url(../../Images/Why.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+}
+#section3 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+#section3 div {
+    display: flex;
+    width: 100%;
+    margin: 10% 0%;
+}
+#section3 div span {
+    display: grid;
+    width: inherit;
+    color: white;
+    text-align: left;
+    padding: 2%;
+}
+#section3 div span h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-top: 8%;
+}
+#section3 div span p {
+    font-size: 22px;
+}
+#section4 {
+    background-color: #3B3838;
+}
+#section4 h1 {
+    color: white;
+    text-align: left;
+    padding: 2% 0px;
+    font-weight: 700;
+    font-size: 40px;
+}
+#Home #section4 #deskcar, #Home #section5 #deskcar2 {
+    display: flex;
+}
+#Home #section4 #mobcaro, #Home #section5 #mobcaro2, #Home #section4 .iMqSPA, #Home #section5 .iMqSPA, #Home #section4 .kbleDV {
+    display: none;
+}
+#section4 div {
+    display: flex;
+}
+#section4 div span {
+    display: grid;
+    background-color: #121212;
+    border: 1px solid white;
+    text-align: left;
+    width: 23%;
+    margin: 0px 1%;
+    font-family: Poppins;
+    color: white;
+    padding: 3% 2.5%;
+}
+#section4 div span div {
+    font-size: 25px;
+    font-style: italic;
+}
+#section4 #carbtn button {
+    width: 25%;
+}
+
+#section5 {
+    background-image: url(../../Images/Why2.png);
+    display: grid;
+    text-align: center;
+    color: white;
+}
+#section5 h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+#section5 div {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#Home #section5 .kbleDV {
+    display: none;
+}
+
+#section5 div span {
+    border-radius: 10px;
+    display: flex;
+    background-color: #1F1F1F;
+    width: 46%;
+    padding: 1%;
+}
+#section5 div span p {
+    padding: 5%;
+    text-align: left;
+    justify-content: center;
+    margin: auto;
+    padding-top: 5%;
+    font-size: 17px;
+}
+#section5 div span span {
+    color: #FFFF00;
+    justify-content: space-between;
+    padding-top: 20%;
+}
+
+
+#section6 {
+    background-color: white;
+}
+#section6 h1 {
+    color: #000080;
+    font-size: 40px;
+    font-weight: 700;
+}
+#section6 .accordion {
+    padding-top: 3%;
+    font-family: Inter;
+    text-align: start;
+}
+
+#section6 .accordion h2 button {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+#section6 .accordion .collapse {
+    color: #3C3C43D9;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+#section7 {
+    background-image: url(../../Images/LocationBg.png);
+}
+#section7 div {
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+}
+#section7 div h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+#section7 div p {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 1% 2%;
+}
+
+
+#section8 {
+    display: flex;
+    background-color: #000080;
+    padding: 0px;
+}
+#bktxt {
+    color: white;
+    text-align: start;
+    place-content: left;
+    margin: 10% 12%;
+
+}
+#Home section .slider-images button {
+    width: 25%;
+}
+
+#bktxt h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+#bktxt p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    header #hd-inner {
+        margin: 12% 5%;
+    }
+    header #hd-inner h1 {
+        font-size: 30px;
+    }
+    header #hd-inner p {
+        font-size: 20px;
+    }
+    section {
+        padding: 4%;
+    }
+    #listicle img {
+        width: 40%;
+        height: 10%;
+        align-self: center;
+    }
+    #Home section h1 {
+        font-size: 30px;
+    }
+    #spst h2 {
+        font-size: 22px;
+    }
+    #Home section .slider-images div span {
+        top: 20%;
+    }
+    #Home section .slider-images div span h2 {
+        font-size: 25px;
+    }
+    #Home section .slider-images div span p {
+        font-size: 17px;
+    }
+    #section3 img {
+        width: 50px;
+    }
+    #section3 div span h2 {
+        font-size: 20px;
+    }
+    #section3 div span p {
+        font-size: 18px;
+    }
+    #Home section .slider-images button {
+        width: max-content;
+    }
+    #section4 h2 {
+        font-size: 22px;
+    }
+    #Home #section4 #mobcaro, #Home #section5 #mobcaro2, #Home #section4 .iMqSPA, #Home #section5 .iMqSPA, #Home #section4 .kbleDV {
+        display: none;
+    }
+    #section5 #deskcar2 span {
+        height: max-content;
+    }
+    #section5 div span span {
+        padding-top: 0px;
+    }
+    #section5 img {
+        width: 50%;
+        height: 50%;
+    }
+    #section5 div span p {
+        padding: 0px 2%;
+        margin: 0px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    header #hd-inner {
+        margin: 25% 5%;
+    }
+    header #hd-inner h1 {
+        font-size: 27px;
+        font-weight: 550;
+    }
+    header #hd-inner p {
+        font-size: 20px;
+        padding-top: 5%;
+    }
+    header #hd-inner button {
+        width: max-content;
+        padding: 2% 5%;
+    }
+    section {
+        padding: 4%;
+    }
+    section h1 {
+        font-size: 30px;
+        padding-right: 15%;
+    }
+    article #listicle {
+        display: grid;
+    }
+    #mbimg {
+        display: block;
+        width: 100%;
+    }
+    #dskimg {
+        display: none;
+    }
+    #section2 {
+        padding-bottom: 12%;
+    }
+    #section2 h1 {
+        font-size: 30px;
+    }
+    #Home #section2 h1 {
+        font-size: 35px;
+        padding-right: 15%;
+    }
+    .slider-images {
+        display: grid;
+        gap: 2%;
+        width: 100%;
+    }
+    #Home .slider-images .active {
+        width: 100% !important;
+    }
+    .slider-img {
+        height: 100%;
+        width: 100%;
+        border: 2px solid white;
+    }
+    #spst h2 {
+        font-size: 25px;
+        padding: 2% 0px;
+        margin: 0px;
+    }
+    #Home .slider-images .active span {
+        position: relative;
+        top: 25%;
+        height: 70%;
+    }
+    #Home .slider-images .active span h2 {
+        margin: 0;
+        font-size: 25px;
+    }
+    #Home .slider-images .active span p {
+        font-size: 17px;
+        padding: 0px;
+    }
+    #section3 h1 {
+        font-size: 35px;
+        justify-self: center;
+        padding-right: 0px;
+    }
+    #section3 div {
+        display: grid;
+    }
+    #section3 div span {
+        padding-bottom: 10%;
+    }
+    #Home section .slider-images button {
+        width: max-content;
+        height: max-content;
+    }
+    #section4 h1 {
+        font-size: 35px;
+        margin-right: 10%;
+    }
+    #Home #section4 #deskcar, #Home #section5 #deskcar2 {
+        display: none;
+    }
+    #Home #section4 #mobcaro, #Home #section5 #mobcaro2, #Home #section4 .iMqSPA, #Home #section5 .iMqSPA, #Home #section4 .kbleDV {
+        display: flex;
+    }
+    #section4 div span {
+        width: 100%;
+    }
+    #section4 #carbtn button {
+        width: max-content;
+    }
+    #Home #section5 .kbleDV {
+        display: flex;
+    }
+    
+    #Home #section5 #deskcar2 {
+        display: none;
+    }
+
+    #section5 div span {
+        width: 100%;
+    }
+    #section5 div span img {
+        height: 70%;
+    }
+    #section5 div span p {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    #Home .card span {
+        color: #FFFF00;
+    }
+    #section5 div {
+        padding-top: 0px;
+    }
+    #section5 h1, #section6 h1, #section7 h1 {
+        font-size: 35px;
+        margin-right: 0px;
+        padding-right: 0px;
+        justify-content: center;
+        text-align: center;
+        justify-self: center;
+    }
+    #Home #section7 p {
+        font-size: 20px;
+    }
+}

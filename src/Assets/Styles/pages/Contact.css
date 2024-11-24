@@ -1,0 +1,46 @@
+#Contact header {
+    background-color: #1F1F1F;
+    font-family: "Lato", sans-serif;
+}
+form {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    bottom: 30%;
+    padding: 2%;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    border: 2px solid #181C391A;
+}
+form label {
+    margin-top: 3%;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+}
+form input {
+    border: 2px solid #181C391A;
+    padding: 2%;
+    height: 45px;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+form textarea {
+    border: 2px solid #181C391A;
+    padding: 2%;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+
+
+@media screen and (max-width: 520px) {
+    #Contact div #mss {
+        width: 100%;
+    }
+    #Contact form {
+        width: 80%;
+    }
+    #Contact div #mss button {
+        width: max-content,
+    }
+}
